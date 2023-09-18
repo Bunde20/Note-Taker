@@ -1,3 +1,4 @@
+// Dependencies being used
 const express = require('express');
 const path = require('path');
 const api = require('./routes');
@@ -18,10 +19,12 @@ app.get('/', (req, res) =>
   res.sendFile(path.join(__dirname, '/public/index.html'))
 );
 
+// GET route for notes
 app.get('/notes', (req, res) =>
   res.sendFile(path.join(__dirname, '/public/notes.html'))
 );
 
+// Defines the port being used
 app.listen(PORT, () =>
   console.log(`App listening at http://localhost:${PORT}`)
 );
