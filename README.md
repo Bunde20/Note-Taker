@@ -17,6 +17,7 @@ To install this application, download this repository to a local directory and r
 
 ## Usage:
 ![Alt text](Note-Taker-Mockup.png)
+- Here is a link to the hosted application via Heroku: https://dashboard.heroku.com/apps/bunde20-note-taker
 
 ## License
 This application falls under the [MIT](https://choosealicense.com/licenses/mit/) license.
